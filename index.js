@@ -10,7 +10,7 @@ const wlmembers = process.env.whitelistkids;
 const neko = new Discord.Client();
 const {AFK, UserID , OwnerID , WlUser, ACCESS, NUKERNAME, NUKEICON, NUKEBANNER, NUKEMESSAGE} = require("./config.json");
 
-client.login(process.env.TUKEN).catch(e => {
+client.login(process.env.TOKEN).catch(e => {
   console.log(`\x1b[31m%s\x1b[0m\x1b[4m`,`TOKEN SUPPLIED IS INVALID / LOCKED / DISABLED !!`)
 })
 client.on('ready', () => {
@@ -50,8 +50,10 @@ client.on(`message`, message => {
 
   if(message.content === "+help"){
 
-    const musg = `**DINO SULFBOT VERSION 1.0 __JUST RELEASED__** \`📜\` \`🔒\` \`💸\` \`🔑\``
-  message.channel.send(`${musg}`, {files: ["https://media.discordapp.net/attachments/939351816351649792/943878011147653150/unknown.png?width=500&height=356"]});
+  message.channel.send(`\`💸\` **DiNO SELFBOT __JUST RELEASED__ !?**
+\`📜\` \`🔒\` \`💸\` \`🔑\ STAY NAUGHTY LIKE DINO\` \`😈\`
+**FCKS THE DEVIL OUT OF ALL || v 1.0 - BuT STiLL BeST ** 
+**To GeT THe CoMManDs ** \`+command\``);
   message.react('🌙');
   
 
@@ -61,7 +63,8 @@ client.on(`message`, message => {
     }
 
     if (message.content == "+command"){
-  message.channel.send("_ _", {files:"https://media.discordapp.net/attachments/939351816351649792/943879220906557501/unknown.png?width=128&height=22"})
+  message.channel.send(` **COMMANDS - **
+\`\`\`help , selfdox , command , type , hideall , unhideall , lockall , unlockall , mc , setnick , setpfp , av , hack , stealpfp , panic , flame , doxserver , wish , ghostping , delall , servericon , crole , drone , doxuser , ban , kick , slowmode , callpolis , roleinfo , mute , unmute , uwuon , nuke , ping , leave , joinvc\`\`\` `)
 }
   if(message.content=="+listserver"){
   message.channel.send(client.guilds.size)
