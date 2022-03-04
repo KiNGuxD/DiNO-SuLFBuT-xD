@@ -27,3 +27,10 @@ FCKING DISCORD RULER MADE BY KINGU AND DEVELOPED ON DISCORD.JS MY DISCORD ID - 6
   
   <kbd>3.</kbd>  <b>THATS IT ENJOY AND PLEASE KEEP THE CREDIT xD </b>
   
+### COMMANDS
+  ``` help , selfdox , command , type , hideall , unhideall , lockall , unlockall , mc , setnick , setpfp , av , hack , stealpfp , panic , flame , doxserver , wish , ghostping , delall , servericon , crole , drone , doxuser , ban , kick , slowmode , callpolis , roleinfo , mute , unmute , uwuon , nuke , ping , leave , joinvc ```
+  
+### SUPPORT ?? 
+JOIN - https://discord.gg/eDesNX6etA
+  
+`JOIN SO THAT U CAN GET ALL UPDATES HERE !!`
